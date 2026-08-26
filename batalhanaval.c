@@ -16,27 +16,6 @@
         
         printf("TABULEIRO BATALHA NAVAL\n");
 
-        //for(int j = 3; j < 6; j++){
-            //tabuleiro[7][j] = navio1[j - 3];
-        //}
-
-        //for(int j = 3; j < 6; j++){
-            //tabuleiro[j][1] = navio2[j - 3];
-        //}
-
-        //for(int i = 3; i < 6; i++) {
-        
-            //tabuleiro[6-i][7-i] = navio3[i - 3];
-        
-            //}
-        
-        //for(int i = 3; i < 6; i++) {
-
-            //tabuleiro[8-i][7-i] = navio4[i - 3];
-        //}
-
-
-
         for(int i = 0; i < 10; i++){
 
             printf(" %c", linha[i]); //linha
@@ -47,13 +26,6 @@
            for(int i = 0; i < 10; i++) { //linha
                tabuleiro[i][0] = i;
             }
-
-        //for(int i = 0; i < 10; i++) { //linha
-            //for(int j = 0; j < 10; j++) { //coluna
-                //printf(" %d", tabuleiro[i][j]);
-            //}
-            //printf("\n");
-        //}
         
         for (int i = 0; i <= alcance; i++) {
             int linhaAtual = origemy - i;
